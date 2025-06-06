@@ -11,8 +11,7 @@ def get_dados():
     urls = {
         ("Menor de 1 ano", "Masculino"): "http://tabnet.saude.mg.gov.br/csv/A13132110_14_8_2.csv",
         ("1 a 4 anos", "Masculino"): "http://tabnet.saude.mg.gov.br/csv/A13130210_14_8_2.csv",
-        ("Menor de 1 ano", "Feminino"): "http://tabnet.saude.mg.gov.br/csv/A13335310_14_8_2.csv",
-        ("1 a 4 anos", "Feminino"): "http://tabnet.saude.mg.gov.br/csv/A13342210_14_8_2.csv",
+        ("Menor de 1 ano", "Feminino"): "http://tabnet.saude.mg.gov.br/csv/A13335310_14_8_2.csv"
     }
 
     todos_dfs = []
